@@ -1,0 +1,124 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado y el menú de navegación */
+header {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-bottom: 2px solid #fff;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+/* Estilos para el área principal y la imagen */
+main {
+    max-width: 1200px; /* Ajusta el ancho máximo según tus necesidades */
+    margin: 0 auto; /* Centra el contenedor principal */
+    padding: 20px; /* Añade espacio alrededor del contenedor */
+}
+
+/* Imagen de perfil */
+.perfil-imagen {
+    display: block; /* Hace que la imagen sea un bloque para centrarla */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    width: 350px; /* Ajusta el tamaño de la imagen */
+    height: 350px; /* Ajusta el tamaño de la imagen */
+    object-fit: cover; /* Asegura que la imagen se ajuste bien en el contenedor */
+    border: 2px solid #333; /* Añade un borde alrededor de la imagen */
+    border-radius: 10px; /* Redondea las esquinas del borde */
+    margin-bottom: 30px; /* Espacio debajo de la imagen */
+}
+
+/* Estilos para la sección "Sobre Mí" */
+.sobre-mi {
+    border: 2px solid #333; /* Borde alrededor de la sección */
+    padding: 20px; /* Espacio interno de la sección */
+    margin: 20px auto; /* Centra la sección horizontalmente */
+    border-radius: 10px; /* Redondea las esquinas del borde */
+    background-color: #f4f4f4; /* Color de fondo de la sección */
+    max-width: 800px; /* Ajusta el ancho máximo de la sección */
+    text-align: center; /* Centra el texto dentro de la sección */
+}
+
+.sobre-mi h2 {
+    margin-top: 0;
+}
+
+.sobre-mi p {
+    margin: 10px 0;
+}
+
+
+
+/* CSS general para las imágenes */
+.imagenes {
+    width: 250px; /* Ajusta el tamaño de la imagen */
+    height: 250px; /* Ajusta el tamaño de la imagen */
+    object-fit: cover; /* Asegura que la imagen se ajuste bien en el contenedor */
+    border: 5px solid #333; /* Añade un borde alrededor de la imagen */
+    border-radius: 10px; /* Redondea las esquinas del borde */
+    margin-bottom: 30px; /* Espacio debajo de la imagen */
+}
+
+/* Contenedor de imágenes en fila */
+.imagenes-container {
+    display: flex; /* Usa Flexbox para alinear las imágenes en fila */
+    justify-content: center; /* Centra las imágenes horizontalmente dentro del contenedor */
+    gap: 20px; /* Espacio entre las imágenes */
+    flex-wrap: wrap; /* Permite que las imágenes se envuelvan a la siguiente línea si no caben en una sola fila */
+    margin: 0 auto; /* Centra el contenedor de imágenes en el contenedor principal */
+    padding: 20px; /* Añade espacio alrededor del contenedor de imágenes */
+    max-width: 1000px; /* Ajusta el ancho máximo del contenedor para evitar que se estire demasiado */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    bo
+
+ /* Estilo para el texto de proyectos */
+.proyectos {
+    font-size: 20px; /* Tamaño del texto, ajustable según necesidad */
+    color: #333; /* Color del texto, para que coincida con el esquema general */
+    text-align: center; /* Centra el texto horizontalmente */
+    padding: 20px; /* Espacio alrededor del texto */
+    border: 2px solid #333; /* Borde alrededor del texto para destacarlo */
+    border-radius: 10px; /* Redondea las esquinas del borde */
+    background-color: #f4f4f4; /* Color de fondo para hacer el texto destacar */
+    max-width: 800px; /* Limita el ancho máximo del contenedor del texto */
+    margin: 20px auto; /* Centra el contenedor y añade espacio arriba y abajo */
+}
